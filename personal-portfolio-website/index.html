@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/logo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Bhakkti Gautam</title>
 </head>
+
 <body>
     <nav>
          <ul>
@@ -24,13 +27,22 @@
         
         <div class="home-container">
         <div class="home-card">
-    <p>Hi, I'm</p>
+            <img src="assets/favicon.png" class="profile-img">
+    <p class="intro-text">Hi, I'm</p>
     <h1>BHAKKTI GAUTAM</h1>
-    <p>ECE Student | Frontend Learner </p>
-    <p>Open Source Contributor | Google Student Ambassador'26</p>
-    <p>Motivated B.Tech student at IIIT Vadodara specializing in <br> Electronics and Communication Engineering. Passionate about <br>robotics,frontend development and building impactful projects.</p>
+    <p class="hero-subtitle">
+    Google Student Ambassador '26 | Open Source Contributor
+</p>
+
+<p class="typing"></p>
+    <p class="home-description">Motivated B.Tech student at IIIT Vadodara specializing in <br> Electronics and Communication Engineering. Passionate about <br>robotics,frontend development and building impactful projects.</p>
    <a href="#projects"><button>View Projects</button></a>
     <a href="#contact"><button>Contact Me</button></a>
+    <div class="social-links">
+    <a href="https://github.com/BhakktiGautam">  <i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/bhakkti-gautam-141b152a0"> <i class="fab fa-linkedin"></i></a>
+    <a href="mailto:bhakktigautam@gmail.com"> <i class="fas fa-envelope"></i></a>
+</div>
 </div>
 </div>
     </section>
@@ -38,7 +50,7 @@
     <h2>About Me</h2>
     <div class="about-container">
     <div class="about-card">
-    <p>I am a B.Tech student pursuing Electronics and Communication Engineering at IIIT Vadodara. I enjoy solving problems, building projects, and exploring modern technologies.
+    <p >I am a B.Tech student pursuing Electronics and Communication Engineering at IIIT Vadodara. I enjoy solving problems, building projects, and exploring modern technologies.
     <br>
     My interests include frontend development, robotics, open-source contribution, and problem-solving. Currently, I am strengthening my development skills through hands-on projects, internships, and community programs.
     <br>
@@ -94,7 +106,7 @@
         <div class="experience-container">
             <div class="experience-card">
         <h3>Google Student Ambassador(India)</h3>
-        <p>May 2026-Present</p>
+        <p>May 2026 - Present</p>
         <ul>
             <li>Representing Google technologies within the student community at IIIT Vadodara</li>
             <li>Participating in product trials and content creation initiatives</li>
@@ -103,7 +115,7 @@
         </div>
         <div class="experience-card">
         <h3>GirlScript Summer of Code(GSSOC'26)</h3>
-        <p>May 2026-Present</p>
+        <p>May 2026 - Present</p>
         <ul>
             <li>Contributing to open-source projects in robotics and frontend development</li>
             <li>Collaborating with mentors and contributors globally</li>
@@ -112,7 +124,7 @@
         </div>
         <div class="experience-card">
         <h3>Social Summer of Code(SSOC'26)</h3>
-        <p>May 2026-Present</p>
+        <p>May 2026 - Present</p>
         <ul>
             <li>Contributing to collaborative open-source projects</li>
             <li>Learning development workflows through community participation</li>
@@ -121,7 +133,7 @@
         </div>
         <div class="experience-card">
         <h3>CODE-A-NOVA Frontend Development Intern</h3>
-        <p>June 2026-Present</p>
+        <p>June 2026 - Present</p>
         <ul>
             <li>Building real-world frontend projects using HTML, CSS, and JavaScript</li>
             <li>Developing responsive applications and strengthening core web fundamentals</li>
@@ -133,53 +145,59 @@
     <section id="projects">
         <h2>Projects</h2>
         <div class="projects-container">
-            <div class="projects-card">
-                <h2>Personal Portfolio Website</h2>
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
                 <p>Modern developer portfolio website to showcase projects, skills, achievements, and experience with responsive design principles.</p>
                 <p>Tech Used: HTML, CSS, JavaScript</p>
                 <p>Status: Completed</p>
-                <button><a href="https://github.com/BhakktiGautam/CODE-A-NOVA/tree/main/personal-portfolio-website
-" target="_blank">View Project</a></button>
-            </div>
-            </div>
-            </div>
-            <div class="projects-card">
-                <h2>Autonomous Robo Simulator</h2>
+               <a href="https://github.com/BhakktiGautam/CODE-A-NOVA/tree/main/personal-portfolio-website
+" target="_blank"><button>View Project</button></a>
+           
+            
+                </div>
+            <div class="project-card">
+                <h3>Autonomous Robo Simulator</h3>
                 <p>Simulation project focused on robotic movement logic and autonomous system behavior for robotics learning and experimentation.</p>
                 <p>Tech Used: Arduino, C</p>
                 <p>Status:  Software Completed, Hardware in Progress</p>
-                <button><a href="https://github.com/BhakktiGautam/Autonomous-robo-simulator" target="_blank">View Project</a></button>
+                <a href="https://github.com/BhakktiGautam/Autonomous-robo-simulator" target="_blank">
+                <button>View Project</button></a>
                 </div>
-                <div class="projects-card">
-                    <h2>Lexical Analyzer</h2>
+                <div class="project-card">
+                    <h3>Lexical Analyzer</h3>
                     <p>Compiler-design based project that analyzes tokens and processes input strings using lexical analysis concepts.</p>
                     <p>Tech Used: C</p>
                     <p>Status: Completed</p>
-                    <button><a href="https://github.com/BhakktiGautam/Lexical-Analyzer-C" target="_blank">View Project</a></button>
+                    <a href="https://github.com/BhakktiGautam/Lexical-Analyzer-C" target="_blank">
+                    <button>View Project</button></a>
                 </div>
-                <div class="projects-card">
-                    <h2>Bank Management System</h2>
+                <div class="project-card">
+                    <h3>Bank Management System</h3>
                     <p>Management system implementing account operations, record handling, and menu-driven functionality.</p>
                     <p>Tech Used: C</p>
                     <p>Status: Completed</p>
-                    <button><a href="https://github.com/BhakktiGautam/Bank-Management-C" target="_blank">View Project</a></button>
+                    <a href="https://github.com/BhakktiGautam/Bank-Management-C" target="_blank">
+                    <button>View Project</button></a>
                 </div>
-                <div class="projects-card">
-                    <h2>2048 Game</h2>
+                <div class="project-card">
+                    <h3>2048 Game</h3>
                     <p>Logic-driven implementation of the classic 2048 puzzle game using arrays and movement algorithms.</p>
                     <p>Tech Used: C</p>
                     <p>Status: Completed</p>
-                    <button><a href="https://github.com/BhakktiGautam/2048-Game-C" target="_blank">View Project</a></button>
+                    <a href="https://github.com/BhakktiGautam/2048-Game-C" target="_blank">
+                    <button>View Project</button></a>
                 </div>
-                <div class="projects-card">
-                    <h2>Typing Tutor</h2>
+                <div class="project-card">
+                    <h3>Typing Tutor</h3>
                     <p>Typing practice application designed to improve typing speed and accuracy through interactive exercises.</p>
                     <p>Tech Used: C</p>
                     <p>Status: Completed</p>
-                    <button><a href="https://github.com/BhakktiGautam/TypingTutor" target="_blank">View Project</a></button>
-        </div>
-
-   </section>
+                    <a href="https://github.com/BhakktiGautam/TypingTutor" target="_blank">
+                    <button>View Project</button></a>
+                
+                </div>
+                </div>
+    </section>
    <section id="qualifications">
     <h2>Qualifications</h2>
     <div class="qualifications-container">
@@ -189,7 +207,13 @@
     <p>2025-2029</p>
     <p>CGPA :7.88/10</p>
     </div>  
+    <div class="qualifications-card">
+        <h3>Higher Secondary Education</h3>
+        <p>Sweet Angels Sr. Sec. School</p>
+        <p>2023-2024</p>
+       
     </div>
+</div>
     </section>
    
 
@@ -198,6 +222,13 @@
     <div class="contact-container">
     <div class="contact-card">
     <p>Email: <a href="mailto:bhakktigautam@gmail.com">bhakktigautam@gmail.com</a></p>
+    <a href="https://github.com/BhakktiGautam" target="_blank">
+    <button>GitHub</button>
+</a>
+
+<a href="https://www.linkedin.com/in/bhakkti-gautam-141b152a0" target="_blank">
+    <button>LinkedIn</button>
+</a>
     <p>Location: Haryana, India</p>
     <p>Feel free to connect for collaborations, projects, open-source contributions, or learning opportunities.</p>
     </div>
@@ -205,8 +236,10 @@
 </section>
 
 <footer>
-    <p>&copy; 2026 Bhakkti Gautam</p>
-    <p>Built with curiosity, consistency, and code.</p>
+    <p>© 2026 Bhakkti Gautam</p>
+    <p>Frontend Developer | Open Source Contributor</p>
+    <p>Built with HTML, CSS & JavaScript ❤️</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
