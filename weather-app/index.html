@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="weather-container">
+    <nav class="sidebar">
+    <ul>
+        <li><a href="#home">☀️ Current Weather</a></li>
+        <li><a href="#forecast">📅 5-Day Forecast</a></li>
+    </ul>
+</nav>
+    <section>
+        <h2>Search for a City</h2>
+        <input type="text" id="city-input" placeholder="Enter city name...">
+        <button id="search-btn">Go</button>
+        <p id="error-msg"></p>
+    </section>
+    <section id="home">
+       <div id="weather-icon" style="font-size: 64px;">⛅</div>
+<h1 id="weather-desc">Cloudy/Sunny</h1>
+        <p id="temp-display">Current temperature: 25°C</p>
+        <p id="location-display">Delhi, India</p>
+    </section>
+    
+        <div class="extra-details">
+            <div class="detail-card">
+                
+        <h2> Humidity</h2>
+        <p id="humidity-display">Current humidity: 65%</p>
+            </div>
+           
+    
+   
+        <div class="detail-card">
+        <h2>Wind Speed</h2>
+        <p id="wind-display">Current wind speed: 10 km/h</p>
+        </div>
+        <div class="detail-card">
+        <h2>🌡️ Feels Like</h2>
+        <p id="feels-like-display">--°C</p>
+    </div>
+</div>
+   
+    <section id="forecast">
+        <h2>5-Day Forecast</h2>
+        <div id="forecast-container" class="forecast-container">
+            
+            </div> 
+    </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
