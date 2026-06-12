@@ -1,13 +1,256 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>healthcare-management-system</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+    <h2>CareWell</h2>
+    <span>HealthCare</span>
+    </div>
+    <ul>
+      <li><a href="#logo">Home</a></li>
+      <li><a href="#ourdoctors">Our Doctors</a></li>
+      <li><a href="#ourspecialities">OurSpecialities</a></li>
+      <li><a href="appointment.html">Book Appointment</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <header>
+  <section id="logo">
+    <div class="logo-content">
+    <h1>CareWell </h1>
+    <h1>Healthcare Management System</h1>
+    <h2>Your health, Our Priority</h2>
+    <p>
+            Providing trusted healthcare services with experienced
+            doctors and easy appointment booking.
+        </p>
+    <div class="hero-buttons">
+    <button><a href="appointment.html"> Book Appointment</a> </button>
+   <a href="contact.html"> <button> Contact Us</button></a>
+   </div>
+   </div>
+    </section>
+
+    </header>
+    <section id="stats">
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h2>5000+</h2>
+            <p>Patients Treated</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>50+</h2>
+            <p>Expert Doctors</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>15+</h2>
+            <p>Specialities</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>24/7</h2>
+            <p>Emergency Support</p>
+        </div>
+
+    </div>
+</section>
+<section id="why-us">
+
+    <h2>Why Choose Us</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <h3>Experienced Doctors</h3>
+            <p>Qualified specialists with years of experience.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Modern Equipment</h3>
+            <p>Advanced medical technology and facilities.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>24/7 Support</h3>
+            <p>Emergency healthcare assistance anytime.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Easy Appointment Booking</h3>
+            <p>Book appointments online within minutes.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Affordable Treatment</h3>
+            <p>Quality healthcare at reasonable prices.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Patient Focused Care</h3>
+            <p>Your comfort and well-being are our priority.</p>
+        </div>
+
+    </div>
+
+</section>
+  <section id="ourdoctors">
+ <h2>Our Doctors</h2>
+    <div class="doctor-containers">
+      <div class="doctor-card">
+        <h3>Dr. Arjun Sharma</h3>
+        <p>Cardiologist</p>
+        <p>10+ Experience</p>
+        <button onclick="showDoctorInfo('Arjun')">Know More</button>
+      </div>
+     
+      <div class="doctor-card">
+        <h3>Dr. Neha Gupta</h3>
+        <p>Neurologist</p>
+        <p>8+ Experience</p>
+       <button onclick="showDoctorInfo('Arjun')">Know More</button>
+      </div>
+
+      
+      <div class="doctor-card">
+        <h3>Dr. Rahul Verma</h3>
+        <p>Orthopedic</p>
+        <p>12+ Experience</p>
+        <button onclick="showDoctorInfo('Arjun')">Know More</button>
+      </div>
+
+     
+      <div class="doctor-card">
+        <h3>Dr. Priya Patel</h3>
+        <p>Pediatrician</p>
+        <p>7+ Experience</p>
+        <button onclick="showDoctorInfo('Arjun')">Know More</button>
+      </div>
+    </div>
+    </section>  
+  <section id="ourspecialities">
+    <h2>Our Specialities</h2>
+    <div class="specialities-container">
+      <div class="specialities-card">
+        <h3>Cardiology</h3>
+        <p>Comprehensive heart care services for adults and children.</p>
+      </div>
+      <div class="specialities-card">
+        <h3>Neurology</h3>
+        <p>Advanced treatment for neurological disorders.</p>
+      </div>
+      <div class="specialities-card">
+        <h3>Orthopedics</h3>
+        <p>Expert care for bones,joints and musculoskeletal issues.</p>
+      </div>
+      <div class="specialities-card">
+        <h3>Pediatrics</h3>
+        <p>Complete healthcare for infants, children and adolscents.</p>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials">
+
+    <h2>What Our Patients Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <p>
+                "Excellent doctors and smooth appointment process."
+            </p>
+            <h4>- Rahul Sharma</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <p>
+                "Very professional staff and modern facilities."
+            </p>
+            <h4>- Priya Singh</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <p>
+                "Best healthcare experience for my family."
+            </p>
+            <h4>- Aman Verma</h4>
+        </div>
+
+    </div>
+
+</section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-card">
+        <h3>CareWell</h3>
+        <h4>Healthcare</h4>
+        <p>We are committed to providing the best healthcare services with compassion and excellence.</p>
+        <button><a href="facebook.com">Facebook</a></button>
+        <button><a href="twitter.com">Twitter</a></button>
+        <button><a href="instagram.com">Instagram</a></button>
+        <button><a href="linkedin.com">Linkedin</a></button>
+          
+      </div>
+
+      <div class="footer-card">
+        <h3>Quick Links</h3>
+        <p><a href="#hero">Home</a></p>
+        <p><a href="#ourdoctors">Our Doctors</a></p>
+        <p><a href="#ourspecialities">Our Specialities</a></p>
+        <p><a href="appointment.html">Appointment</a></p>
+        <p><a href="contact.html">Contact Us</a></p>
+      </div>
+      <div class="footer-card">
+        <h3>Our Specialities</h3>
+        <p>Cardiology</p>
+        <p>Neurology</p>
+        <p>Orthopedics</p>
+        <p>Pediatrics</p>
+      </div>
+      <div class="footer-card">
+        <h3>Contact Info</h3>
+        <p>123 Healthcare Street, New Delhi, India</p>
+        <p>+91 98765 43210</p>
+        <p>info@carewell.com</p>
+      </div>
+     
+
+    </div>
+     <section class="stats">
+    <div class="stat-card">
+        <h2>50+</h2>
+        <p>Doctors</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>10K+</h2>
+        <p>Patients Treated</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>15+</h2>
+        <p>Specialities</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>24/7</h2>
+        <p>Support</p>
+    </div>
+</section>
+<hr>
+<p>© 2026 CareWell HealthCare. All rights reserved.</p>
+    
+    <p>Designed with ❤️ for better healthcare</p>
+  </footer>
+  <script src="script.js"></script> 
+</body>
+
 </html>

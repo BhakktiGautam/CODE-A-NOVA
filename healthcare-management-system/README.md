@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏥 Healthcare Management System
 
 A responsive Healthcare Management System frontend developed using **HTML, CSS, and JavaScript**. The project provides an intuitive interface for patients to explore medical services, learn about doctors, book appointments, and contact the healthcare facility.
@@ -126,3 +127,5 @@ Through this project, I practiced:
 ## 📜 License
 
 This project is created for educational and learning purposes.
+=======
+>>>>>>> 24f6c33 (Complete healthcare management system frontend)
